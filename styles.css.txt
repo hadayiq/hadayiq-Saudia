@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* إعدادات الصفحة */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* العنوان */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* التنقل */
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 20px 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #45a049;
+}
+
+/* الأقسام */
+.service-section {
+  display: none;
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.service-section.active {
+  display: block;
+}
+
+.service-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* زر الواتساب العائم */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-btn img {
+  width: 50px;
+  height: 50px;
+}
+
+/* الفوتر */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}

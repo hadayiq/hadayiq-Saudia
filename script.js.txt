@@ -1,0 +1,14 @@
+// script.js
+
+// دالة لعرض القسم المحدد عند النقر على الروابط
+function showSection(sectionId) {
+  // إخفاء جميع الأقسام
+  const sections = document.querySelectorAll('.service-section');
+  sections.forEach(section => {
+    section.classList.remove('active');
+  });
+
+  // عرض القسم الذي تم اختياره
+  const selectedSection = document.getElementById(sectionId);
+  selectedSection.classList.add('active');
+}

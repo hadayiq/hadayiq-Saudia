@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="خدمة تصميم وتركيب نوافير للحدائق، ديكورات الحدائق، وشلالات مياه بأسلوب عصري وجميل.">
+  <meta name="keywords" content="نوافير, ديكورات الحدائق, شلالات مياه, تصميم الحدائق">
+  <meta name="author" content="اسم شركتك">
+  <title>خدمة تصميم الحدائق والشلالات والنوافير</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- العنوان -->
+  <header>
+    <h1>خدمة تصميم الحدائق والنوافير والشلالات</h1>
+    <p>تصميمات فريدة للحدائق والنوافير والشلالات التي تضيف لمسة جمالية لمنزلك</p>
+  </header>
+
+  <!-- أزرار للتبديل بين الأقسام -->
+  <nav>
+    <ul>
+      <li><a href="#" onclick="showSection('fountains')">نوافير</a></li>
+      <li><a href="#" onclick="showSection('garden-decor')">ديكورات الحدائق</a></li>
+      <li><a href="#" onclick="showSection('waterfalls')">شلالات</a></li>
+    </ul>
+  </nav>
+
+  <!-- الأقسام -->
+  <section id="fountains" class="service-section active">
+    <h2>نوافير الحدائق</h2>
+    <p>نقدم تصميمات رائعة للنوافير تناسب كل الحديقة.</p>
+    <img src="image1.jpg" alt="نافورة حديقة" />
+  </section>
+
+  <section id="garden-decor" class="service-section">
+    <h2>ديكورات الحدائق</h2>
+    <p>ديكورات مبتكرة لتحسين جمال حديقتك.</p>
+    <img src="image2.jpg" alt="ديكورات الحدائق" />
+  </section>
+
+  <section id="waterfalls" class="service-section">
+    <h2>شلالات المياه</h2>
+    <p>تصميم شلالات مياه تضيف لمسة من الهدوء والجمال للحديقة.</p>
+    <img src="image3.jpg" alt="شلال مياه" />
+  </section>
+
+  <!-- زر الواتساب العائم -->
+  <div class="whatsapp-btn">
+    <a href="https://wa.me/yourphonenumber" target="_blank">
+      <img src="whatsapp-icon.png" alt="واتساب" />
+    </a>
+  </div>
+
+  <!-- الفوتر -->
+  <footer>
+    <p>جميع الحقوق محفوظة © شركتك</p>
+  </footer>
+</body>
+</html>
